@@ -54,10 +54,10 @@ export const DATA = {
 
         navbar: true,
       },
-      Youtube: {
+      Speaker: {
         name: "Youtube",
-        url: "https://dub.sh/dillion-youtube",
-        icon: Icons.youtube,
+        url: "",
+        icon: Icons.volume,
         navbar: true,
       },
       email: {
