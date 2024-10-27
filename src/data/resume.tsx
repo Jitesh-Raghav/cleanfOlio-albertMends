@@ -79,6 +79,19 @@ export const DATA = {
   },
 
   work: [
+
+    {
+      company: "Open Source Contributor",
+      href: "https://li.me/",
+      badges: [],
+      location: "Remote",
+      title: "Active Contributor to Community Projects",
+      logoUrl: "/os.png",
+      start: "Oct 2023",
+      end: "Present",
+      description:
+        "Regularly contribute to open-source projects, focusing on Java, Spring Boot, and frontend technologies like React. Contributions include bug fixes, new feature implementations, and code optimization across various repositories. Collaborate with global developers, enhancing code quality and fostering continuous learning within the open-source community"
+      },
     {
       company: "Upwork",
       href: "https://www.upwork.com/freelancers/~01fdf6a38198f395a4",
@@ -127,18 +140,7 @@ export const DATA = {
     //   description:
     //     "Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.",
     // },
-    {
-      company: "Open Source Contributor",
-      href: "https://li.me/",
-      badges: [],
-      location: "Remote",
-      title: "Active Contributor to Community Projects",
-      logoUrl: "/os.png",
-      start: "Oct 2023",
-      end: "Present",
-      description:
-        "Regularly contribute to open-source projects, focusing on Java, Spring Boot, and frontend technologies like React. Contributions include bug fixes, new feature implementations, and code optimization across various repositories. Collaborate with global developers, enhancing code quality and fostering continuous learning within the open-source community"
-      },
+    
     {
       company: "Hacktober Fest 2024",
       href: "https://github.com/Jitesh-Raghav",
@@ -192,22 +194,26 @@ export const DATA = {
       dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "Chirper-X is a micro-blogging app with 200+ active users, allowing 50-word blogs with multimedia features. It boosts engagement by 30% and improves retention by 20% through user profiles and subscription upgrades.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "JWT","Java","Spring Boot", 
+        "React", 
+        "Redux", 
+        "Tailwind CSS", 
+        "MUI",
+        "MySQL",
+        "Cloudinary"
       ],
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          href: "https://chirper-x.vercel.app/home",
           icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/magicuidesign/magicui",
+          icon: <Icons.github className="size-3" />,
         },
       ],
       image: "/chirp.png",
@@ -489,7 +495,7 @@ export const DATA = {
     },
 
 
-    
+
     // {
     //   title: "McGill AI for Social Innovation Hackathon",
     //   dates: "June 17th - 18th, 2017",
