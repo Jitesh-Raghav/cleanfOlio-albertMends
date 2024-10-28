@@ -190,7 +190,7 @@ export const DATA = {
   projects: [
     {
       title: "Chirper-X",
-      href: "https://chatcollect.com",
+      href: "https://chirper-x.vercel.app/home",
       dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
@@ -212,7 +212,7 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
+          href: "https://github.com/Jitesh-Raghav/Chirper-X-Backend",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -221,45 +221,12 @@ export const DATA = {
         "",
     },
     {
-      title: "Magic UI",
-      href: "https://magicui.design",
-      dates: "June 2023 - Present",
+      title: "Drawscribe.io",
+      href: "https://proassign.vercel.app/",
+      dates: "Aug 2024 - Oct 2024",
       active: true,
       description:
-        "Designed, developed and sold animated UI components for developers.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://magicui.design",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/magicuidesign/magicui",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "https://cdn.magicui.design/bento-grid.mp4",
-    },
-    {
-      title: "llm.report",
-      href: "https://llm.report",
-      dates: "April 2023 - September 2023",
-      active: true,
-      description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
-      technologies: [
+      "Developed a Project Management app that improved task tracking by 40% and load speeds by 200ms. Supported 100+ users with real-time chat, task tracking, and Razorpay subscription upgrades.",      technologies: [
         "Next.js",
         "Typescript",
         "PostgreSQL",
@@ -273,26 +240,59 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://llm.report",
+          href: "https://proassign.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/dillionverma/llm.report",
+          href: "https://github.com/Jitesh-Raghav/ProAssign-FE",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "https://cdn.llm.report/openai-demo.mp4",
+      image: "/draw.jpg",
+      // video:
+      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     },
     {
-      title: "Automatic Chat",
-      href: "https://automatic.chat",
-      dates: "April 2023 - March 2024",
+      title: "Blitzkrieg",
+      href: "https://blitzkrieg-beryl.vercel.app/",
+      dates: "Sept 2024 - Oct 2024",
       active: true,
       description:
-        "Developed an AI Customer Support Chatbot which automatically responds to customer support tickets using the latest GPT models.",
+        "Blitzkrieg is a cloud IDE built with React, CodeMirror, Tailwind, and Judge0. It enables real-time code execution, syntax highlighting, and supports multiple languages for seamless coding directly in the browser.",
       technologies: [
+        "Next.js",
+        "Typescript",
+        "PostgreSQL",
+        "Prisma",
+        "TailwindCSS",
+        "Stripe",
+        "Shadcn UI",
+        "Magic UI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://blitzkrieg-beryl.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Jitesh-Raghav/Blitzkrieg",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/blitz.png",
+      // video: "https://cdn.magicui.design/bento-grid.mp4",
+    },
+    {
+      title: "minuteURL",
+      href: "https://minute-url.vercel.app/",
+      dates: "Nov 2023",
+      active: true,
+      description:
+       "MinuteURL is a URL shortening service built with Spring Boot. It provides quick, easy-to-use link shortening, analytics tracking, and custom URL options, making link management efficient and accessible.",     
+        technologies: [
         "Next.js",
         "Typescript",
         "PostgreSQL",
@@ -306,14 +306,87 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://automatic.chat",
+          href: "https://minute-url.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
+        {
+          type: "Source",
+          href: "https://github.com/Jitesh-Raghav/MinuteURL-Backend",
+          icon: <Icons.github className="size-3" />,
+        },
       ],
-      image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+      image: "/minute.png",
+      // video: "https://cdn.llm.report/openai-demo.mp4",
     },
+    {
+      title: "ProAssign",
+      href: "https://proassign.vercel.app/",
+      dates: "Feb 2024",
+      active: true,
+      description:
+      "Developed a Project Management app that improved task tracking by 40% and load speeds by 200ms. Supported 100+ users with real-time chat, task tracking, and Razorpay subscription upgrades.",      technologies: [
+        "Next.js",
+        "Typescript",
+        "PostgreSQL",
+        "Prisma",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Magic UI",
+        "Stripe",
+        "Cloudflare Workers",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://proassign.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Jitesh-Raghav/ProAssign-FE",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/pro.jpeg",
+      // video:
+      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+    },
+    {
+      title: "DocHouse",
+      href: "https://chromewebstore.google.com/detail/dochouse/bfiklficoamhlojcefkjaeamidnlbgbj?authuser=0&hl=en-GB",
+      dates: "April 2024",
+      active: true,
+      description:
+     "Built a Chrome extension converting 7+ file types to PDF, processing files daily. Optimized with Spring Boot, cutting processing time by 30% using Apache POI and PDFBox, with 100+ installs and a simple UI.",
+         technologies: [
+        "Next.js",
+        "Typescript",
+        "PostgreSQL",
+        "Prisma",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Magic UI",
+        "Stripe",
+        "Cloudflare Workers",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://chromewebstore.google.com/detail/dochouse/bfiklficoamhlojcefkjaeamidnlbgbj?authuser=0&hl=en-GB",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Jitesh-Raghav/DocHouse-ChromeExtension",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/doc.jpg",
+      // video:
+      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+    },
+
+   
   ],
   hackathons: [
     {
