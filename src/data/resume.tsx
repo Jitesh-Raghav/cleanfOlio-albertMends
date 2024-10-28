@@ -32,6 +32,8 @@ export const DATA = {
     "Kafka",
     "Rabbit MQ",
     "AWS",
+    "Linux",
+    "WebSockets",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -226,16 +228,15 @@ export const DATA = {
       dates: "Aug 2024 - Oct 2024",
       active: true,
       description:
-      "Developed a Project Management app that improved task tracking by 40% and load speeds by 200ms. Supported 100+ users with real-time chat, task tracking, and Razorpay subscription upgrades.",      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+      " Drawscribe.io is an engaging drawing and guessing game inspired by Skribbl.io. Built with WebSocket, Spring Boot, and React, it provides real-time multiplayer interactions for users to showcase their creativity and guessing skills.",
+        technologies: [
+        "Spring Boot",
+        "React",
+        "Tailwind CSS",
+        "Web Sockets",
+        "Howler.js",
+       "DiceBear",
+        "Fabric.js"
       ],
       links: [
         {
@@ -261,14 +262,7 @@ export const DATA = {
       description:
         "Blitzkrieg is a cloud IDE built with React, CodeMirror, Tailwind, and Judge0. It enables real-time code execution, syntax highlighting, and supports multiple languages for seamless coding directly in the browser.",
       technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
+        "React", "Redux","Tailwind CSS", "Code Mirror", "Judge0",
       ],
       links: [
         {
@@ -293,15 +287,7 @@ export const DATA = {
       description:
        "MinuteURL is a URL shortening service built with Spring Boot. It provides quick, easy-to-use link shortening, analytics tracking, and custom URL options, making link management efficient and accessible.",     
         technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+          "HTML", "CSS", "JavaScript", "Spring Boot", "MySQL"
       ],
       links: [
         {
@@ -325,15 +311,7 @@ export const DATA = {
       active: true,
       description:
       "Developed a Project Management app that improved task tracking by 40% and load speeds by 200ms. Supported 100+ users with real-time chat, task tracking, and Razorpay subscription upgrades.",      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+        "React", "Redux", "Tailwind CSS", "Shadcn UI", "Spring Boot", "MySQL", "Razorpay",
       ],
       links: [
         {
@@ -359,15 +337,7 @@ export const DATA = {
       description:
      "Built a Chrome extension converting 7+ file types to PDF, processing files daily. Optimized with Spring Boot, cutting processing time by 30% using Apache POI and PDFBox, with 100+ installs and a simple UI.",
          technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Magic UI",
-        "Stripe",
-        "Cloudflare Workers",
+          "HTML", "CSS", "JavaScript","Apache POI", "JODConvertor", "Spring Boot"
       ],
       links: [
         {
