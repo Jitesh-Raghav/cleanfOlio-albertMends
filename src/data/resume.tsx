@@ -355,7 +355,110 @@ export const DATA = {
       // video:
       //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     },
-
+    {
+      title: "NetflixGPT",
+      href: "https://chromewebstore.google.com/detail/dochouse/bfiklficoamhlojcefkjaeamidnlbgbj?authuser=0&hl=en-GB",
+      dates: "April 2024",
+      active: true,
+      description:
+     "Built a Chrome extension converting 7+ file types to PDF, processing files daily. Optimized with Spring Boot, cutting processing time by 30% using Apache POI and PDFBox, with 100+ installs and a simple UI.",
+         technologies: [
+          "HTML", "CSS", "JavaScript","Apache POI", "JODConvertor", "Spring Boot"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://chromewebstore.google.com/detail/dochouse/bfiklficoamhlojcefkjaeamidnlbgbj?authuser=0&hl=en-GB",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Jitesh-Raghav/DocHouse-ChromeExtension",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/netflix.png",
+      // video:
+      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+    },
+    {
+      title: "Reserv",
+      href: "https://chromewebstore.google.com/detail/dochouse/bfiklficoamhlojcefkjaeamidnlbgbj?authuser=0&hl=en-GB",
+      dates: "April 2024",
+      active: true,
+      description:
+     "Built a Chrome extension converting 7+ file types to PDF, processing files daily. Optimized with Spring Boot, cutting processing time by 30% using Apache POI and PDFBox, with 100+ installs and a simple UI.",
+         technologies: [
+          "HTML", "CSS", "JavaScript","Apache POI", "JODConvertor", "Spring Boot"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://chromewebstore.google.com/detail/dochouse/bfiklficoamhlojcefkjaeamidnlbgbj?authuser=0&hl=en-GB",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Jitesh-Raghav/DocHouse-ChromeExtension",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/ticket.png",
+      // video:
+      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+    },
+    {
+      title: "Multithreaded WebServer",
+      href: "https://chromewebstore.google.com/detail/dochouse/bfiklficoamhlojcefkjaeamidnlbgbj?authuser=0&hl=en-GB",
+      dates: "April 2024",
+      active: true,
+      description:
+     "Built a Chrome extension converting 7+ file types to PDF, processing files daily. Optimized with Spring Boot, cutting processing time by 30% using Apache POI and PDFBox, with 100+ installs and a simple UI.",
+         technologies: [
+          "HTML", "CSS", "JavaScript","Apache POI", "JODConvertor", "Spring Boot"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://chromewebstore.google.com/detail/dochouse/bfiklficoamhlojcefkjaeamidnlbgbj?authuser=0&hl=en-GB",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Jitesh-Raghav/DocHouse-ChromeExtension",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/server.jpg",
+      // video:
+      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+    },
+    {
+      title: "DocHouse",
+      href: "https://chromewebstore.google.com/detail/dochouse/bfiklficoamhlojcefkjaeamidnlbgbj?authuser=0&hl=en-GB",
+      dates: "April 2024",
+      active: true,
+      description:
+     "Built a Chrome extension converting 7+ file types to PDF, processing files daily. Optimized with Spring Boot, cutting processing time by 30% using Apache POI and PDFBox, with 100+ installs and a simple UI.",
+         technologies: [
+          "HTML", "CSS", "JavaScript","Apache POI", "JODConvertor", "Spring Boot"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://chromewebstore.google.com/detail/dochouse/bfiklficoamhlojcefkjaeamidnlbgbj?authuser=0&hl=en-GB",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Jitesh-Raghav/DocHouse-ChromeExtension",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/doc.jpg",
+      // video:
+      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+    },
    
   ],
   hackathons: [
