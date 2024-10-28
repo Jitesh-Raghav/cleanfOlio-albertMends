@@ -246,7 +246,7 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/Jitesh-Raghav/ProAssign-FE",
+          href: "https://github.com/Jitesh-Raghav/DrawScribe.io",
           icon: <Icons.github className="size-3" />,
         },
       ],
