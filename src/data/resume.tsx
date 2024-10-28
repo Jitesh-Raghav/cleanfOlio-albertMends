@@ -434,7 +434,7 @@ export const DATA = {
       //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     },
     {
-      title: "DocHouse",
+      title: "FarMore",
       href: "https://chromewebstore.google.com/detail/dochouse/bfiklficoamhlojcefkjaeamidnlbgbj?authuser=0&hl=en-GB",
       dates: "April 2024",
       active: true,
@@ -446,7 +446,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://chromewebstore.google.com/detail/dochouse/bfiklficoamhlojcefkjaeamidnlbgbj?authuser=0&hl=en-GB",
+          href: "https://farmore.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
@@ -455,7 +455,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/doc.jpg",
+      image: "/banner-img.png",
       // video:
       //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     },
