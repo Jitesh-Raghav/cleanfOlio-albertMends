@@ -196,7 +196,7 @@ export const DATA = {
       dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
-        "Chirper-X is a micro-blogging app with 200+ active users, allowing 50-word blogs with multimedia features. It boosts engagement by 30% and improves retention by 20% through user profiles and subscription upgrades.",
+        "Chirper-X is a micro-blogging app with 200+ active users, offering multimedia posts, user profiles, and subscription upgrades to boost engagement.",
       technologies: [
         "JWT","Java","Spring Boot", 
         "React", 
@@ -224,11 +224,11 @@ export const DATA = {
     },
     {
       title: "Drawscribe.io",
-      href: "https://proassign.vercel.app/",
+      href: "https://github.com/Jitesh-Raghav/DrawScribe.io",
       dates: "Aug 2024 - Oct 2024",
       active: true,
       description:
-      " Drawscribe.io is an engaging drawing and guessing game inspired by Skribbl.io. Built with WebSocket, Spring Boot, and React, it provides real-time multiplayer interactions for users to showcase their creativity and guessing skills.",
+     "Drawscribe.io is an interactive drawing and guessing game built with WebSocket, Spring Boot, and React, offering real-time multiplayer fun for users to showcase creativity and guessing skills.",
         technologies: [
         "Spring Boot",
         "React",
@@ -241,7 +241,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://proassign.vercel.app/",
+          href: "https://github.com/Jitesh-Raghav/DrawScribe.io",
           icon: <Icons.globe className="size-3" />,
         },
         {
@@ -260,7 +260,7 @@ export const DATA = {
       dates: "Sept 2024 - Oct 2024",
       active: true,
       description:
-        "Blitzkrieg is a cloud IDE built with React, CodeMirror, Tailwind, and Judge0. It enables real-time code execution, syntax highlighting, and supports multiple languages for seamless coding directly in the browser.",
+        "A cloud IDE built with React, CodeMirror, Tailwind, and Judge0. It enables real-time code execution, syntax highlighting, and supports multiple languages for seamless coding directly in the browser.",
       technologies: [
         "React", "Redux","Tailwind CSS", "Code Mirror", "Judge0",
       ],
@@ -285,7 +285,7 @@ export const DATA = {
       dates: "Nov 2023",
       active: true,
       description:
-       "MinuteURL is a URL shortening service built with Spring Boot. It provides quick, easy-to-use link shortening, analytics tracking, and custom URL options, making link management efficient and accessible.",     
+       "A URL shortening website which provides quick, easy-to-use link shortening, analytics tracking, and custom URL options, making link management efficient and accessible.",     
         technologies: [
           "HTML", "CSS", "JavaScript", "Spring Boot", "MySQL"
       ],
@@ -310,7 +310,7 @@ export const DATA = {
       dates: "Feb 2024",
       active: true,
       description:
-      "Developed a Project Management app that improved task tracking by 40% and load speeds by 200ms. Supported 100+ users with real-time chat, task tracking, and Razorpay subscription upgrades.",      technologies: [
+      "A project and bug management platform where users can create projects, assign tasks, invite collaborators, and track progress. Includes real-time chat for seamless team communication.",      technologies: [
         "React", "Redux", "Tailwind CSS", "Shadcn UI", "Spring Boot", "MySQL", "Razorpay",
       ],
       links: [
@@ -335,7 +335,7 @@ export const DATA = {
       dates: "April 2024",
       active: true,
       description:
-     "Built a Chrome extension converting 7+ file types to PDF, processing files daily. Optimized with Spring Boot, cutting processing time by 30% using Apache POI and PDFBox, with 100+ installs and a simple UI.",
+     "Built a Chrome extension converting 7+ file types to PDF, processing files daily. Optimized with Spring Boot, cutting processing time by 30% using Apache POI and PDFBox, with 100+ installs.",
          technologies: [
           "HTML", "CSS", "JavaScript","Apache POI", "JODConvertor", "Spring Boot"
       ],
@@ -357,23 +357,22 @@ export const DATA = {
     },
     {
       title: "NetflixGPT",
-      href: "https://chromewebstore.google.com/detail/dochouse/bfiklficoamhlojcefkjaeamidnlbgbj?authuser=0&hl=en-GB",
+      href: "https://netflix-gpt-zeta-swart.vercel.app/",
       dates: "April 2024",
       active: true,
       description:
-     "Built a Chrome extension converting 7+ file types to PDF, processing files daily. Optimized with Spring Boot, cutting processing time by 30% using Apache POI and PDFBox, with 100+ installs and a simple UI.",
-         technologies: [
+    "A movie recommendation website that generates tailored movie lists based on user prompts, offering quick suggestions for any mood or genre.",    technologies: [
           "HTML", "CSS", "JavaScript","Apache POI", "JODConvertor", "Spring Boot"
       ],
       links: [
         {
           type: "Website",
-          href: "https://chromewebstore.google.com/detail/dochouse/bfiklficoamhlojcefkjaeamidnlbgbj?authuser=0&hl=en-GB",
+          href: "https://netflix-gpt-zeta-swart.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/Jitesh-Raghav/DocHouse-ChromeExtension",
+          href: "https://github.com/Jitesh-Raghav/Netflix-GPT",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -383,23 +382,22 @@ export const DATA = {
     },
     {
       title: "Reserv",
-      href: "https://chromewebstore.google.com/detail/dochouse/bfiklficoamhlojcefkjaeamidnlbgbj?authuser=0&hl=en-GB",
+      href: "https://github.com/Jitesh-Raghav/Ticket-Booking-Concurrent",
       dates: "April 2024",
       active: true,
       description:
-     "Built a Chrome extension converting 7+ file types to PDF, processing files daily. Optimized with Spring Boot, cutting processing time by 30% using Apache POI and PDFBox, with 100+ installs and a simple UI.",
-         technologies: [
-          "HTML", "CSS", "JavaScript","Apache POI", "JODConvertor", "Spring Boot"
+       "A Movie Ticket Booking App using Spring Boot, with transaction isolation to manage concurrent seat bookings and prevent race conditions. Features include REST APIs, user authentication, movie listings, and booking.",  technologies: [
+         "HTML", "CSS", "JavaScript","Apache POI", "JODConvertor", "Spring Boot"
       ],
       links: [
-        {
-          type: "Website",
-          href: "https://chromewebstore.google.com/detail/dochouse/bfiklficoamhlojcefkjaeamidnlbgbj?authuser=0&hl=en-GB",
-          icon: <Icons.globe className="size-3" />,
-        },
+        // {
+        //   type: "Website",
+        //   href: "https://chromewebstore.google.com/detail/dochouse/bfiklficoamhlojcefkjaeamidnlbgbj?authuser=0&hl=en-GB",
+        //   icon: <Icons.globe className="size-3" />,
+        // },
         {
           type: "Source",
-          href: "https://github.com/Jitesh-Raghav/DocHouse-ChromeExtension",
+          href: "https://github.com/Jitesh-Raghav/Ticket-Booking-Concurrent",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -409,23 +407,22 @@ export const DATA = {
     },
     {
       title: "Multithreaded WebServer",
-      href: "https://chromewebstore.google.com/detail/dochouse/bfiklficoamhlojcefkjaeamidnlbgbj?authuser=0&hl=en-GB",
+      href: "https://github.com/Jitesh-Raghav/Multithreaded-WebServer",
       dates: "April 2024",
       active: true,
       description:
-     "Built a Chrome extension converting 7+ file types to PDF, processing files daily. Optimized with Spring Boot, cutting processing time by 30% using Apache POI and PDFBox, with 100+ installs and a simple UI.",
-         technologies: [
-          "HTML", "CSS", "JavaScript","Apache POI", "JODConvertor", "Spring Boot"
+    "Its a High-performance HTTP server utilizing multithreading for concurrent client connections. Features robust request handling, optimized resource allocation, and scalable architecture.",    technologies: [
+          "Java", "JMeter"
       ],
       links: [
-        {
-          type: "Website",
-          href: "https://chromewebstore.google.com/detail/dochouse/bfiklficoamhlojcefkjaeamidnlbgbj?authuser=0&hl=en-GB",
-          icon: <Icons.globe className="size-3" />,
-        },
+        // {
+        //   type: "Website",
+        //   href: "https://chromewebstore.google.com/detail/dochouse/bfiklficoamhlojcefkjaeamidnlbgbj?authuser=0&hl=en-GB",
+        //   icon: <Icons.globe className="size-3" />,
+        // },
         {
           type: "Source",
-          href: "https://github.com/Jitesh-Raghav/DocHouse-ChromeExtension",
+          href: "https://github.com/Jitesh-Raghav/Multithreaded-WebServer",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -435,13 +432,12 @@ export const DATA = {
     },
     {
       title: "FarMore",
-      href: "https://chromewebstore.google.com/detail/dochouse/bfiklficoamhlojcefkjaeamidnlbgbj?authuser=0&hl=en-GB",
+      href: "https://farmore.vercel.app/",
       dates: "April 2024",
       active: true,
       description:
-     "Built a Chrome extension converting 7+ file types to PDF, processing files daily. Optimized with Spring Boot, cutting processing time by 30% using Apache POI and PDFBox, with 100+ installs and a simple UI.",
-         technologies: [
-          "HTML", "CSS", "JavaScript","Apache POI", "JODConvertor", "Spring Boot"
+    "A crop management platform that recommends ideal crops for optimal yield based on weather, temperature, soil type, and rainfall, supporting efficient and sustainable farming." ,       technologies: [
+          "React", "Raspberry Pi", "Sensors", "WeatherAPIs"
       ],
       links: [
         {
@@ -451,7 +447,7 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/Jitesh-Raghav/DocHouse-ChromeExtension",
+          href: "https://github.com/Jitesh-Raghav/AgriMaster",
           icon: <Icons.github className="size-3" />,
         },
       ],
