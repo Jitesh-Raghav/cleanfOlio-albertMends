@@ -386,7 +386,7 @@ export const DATA = {
       dates: "April 2024",
       active: true,
       description:
-       "A Movie Ticket Booking App using Spring Boot, with transaction isolation to manage concurrent seat bookings and prevent race conditions. Features include REST APIs, user authentication, movie listings, and booking.",  technologies: [
+       "A Movie Ticket Booking website with transaction isolation to manage concurrent seat bookings and prevent race conditions. Features include user authentication, movie listings, and booking.",  technologies: [
          "HTML", "CSS", "JavaScript","Apache POI", "JODConvertor", "Spring Boot"
       ],
       links: [
