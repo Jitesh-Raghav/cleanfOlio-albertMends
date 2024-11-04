@@ -254,31 +254,31 @@ export const DATA = {
       // video:
       //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     },
-    {
-      title: "Blitzkrieg",
-      href: "https://blitzkrieg-beryl.vercel.app/",
-      dates: "Sept 2024 - Oct 2024",
-      active: true,
-      description:
-        "A cloud IDE built with React, CodeMirror, Tailwind, and Judge0. It enables real-time code execution, syntax highlighting, and supports multiple languages for seamless coding directly in the browser.",
-      technologies: [
-        "React", "Redux","Tailwind CSS", "Code Mirror", "Judge0",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://blitzkrieg-beryl.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/Jitesh-Raghav/Blitzkrieg",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/blitz.png",
-      // video: "https://cdn.magicui.design/bento-grid.mp4",
-    },
+    // {
+    //   title: "Blitzkrieg",
+    //   href: "https://blitzkrieg-beryl.vercel.app/",
+    //   dates: "Sept 2024 - Oct 2024",
+    //   active: true,
+    //   description:
+    //     "A cloud IDE built with React, CodeMirror, Tailwind, and Judge0. It enables real-time code execution, syntax highlighting, and supports multiple languages for seamless coding directly in the browser.",
+    //   technologies: [
+    //     "React", "Redux","Tailwind CSS", "Code Mirror", "Judge0",
+    //   ],
+    //   links: [
+    //     {
+    //       type: "Website",
+    //       href: "https://blitzkrieg-beryl.vercel.app/",
+    //       icon: <Icons.globe className="size-3" />,
+    //     },
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/Jitesh-Raghav/Blitzkrieg",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "/blitz.png",
+    //   // video: "https://cdn.magicui.design/bento-grid.mp4",
+    // },
     {
       title: "minuteURL",
       href: "https://minute-url.vercel.app/",
