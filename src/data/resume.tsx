@@ -380,31 +380,31 @@ export const DATA = {
       // video:
       //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     },
-    {
-      title: "Reserv",
-      href: "https://github.com/Jitesh-Raghav/Ticket-Booking-Concurrent",
-      dates: "April 2024",
-      active: true,
-      description:
-       "A Movie Ticket Booking website with transaction isolation to manage concurrent seat bookings and prevent race conditions. Features include user authentication, movie listings, and booking.",  technologies: [
-         "HTML", "CSS", "JavaScript","Apache POI", "JODConvertor", "Spring Boot"
-      ],
-      links: [
-        // {
-        //   type: "Website",
-        //   href: "https://chromewebstore.google.com/detail/dochouse/bfiklficoamhlojcefkjaeamidnlbgbj?authuser=0&hl=en-GB",
-        //   icon: <Icons.globe className="size-3" />,
-        // },
-        {
-          type: "Source",
-          href: "https://github.com/Jitesh-Raghav/Ticket-Booking-Concurrent",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "/ticket.png",
-      // video:
-      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
-    },
+    // {
+    //   title: "Reserv",
+    //   href: "https://github.com/Jitesh-Raghav/Ticket-Booking-Concurrent",
+    //   dates: "April 2024",
+    //   active: true,
+    //   description:
+    //    "A Movie Ticket Booking website with transaction isolation to manage concurrent seat bookings and prevent race conditions. Features include user authentication, movie listings, and booking.",  technologies: [
+    //      "HTML", "CSS", "JavaScript","Apache POI", "JODConvertor", "Spring Boot"
+    //   ],
+    //   links: [
+    //     // {
+    //     //   type: "Website",
+    //     //   href: "https://chromewebstore.google.com/detail/dochouse/bfiklficoamhlojcefkjaeamidnlbgbj?authuser=0&hl=en-GB",
+    //     //   icon: <Icons.globe className="size-3" />,
+    //     // },
+    //     {
+    //       type: "Source",
+    //       href: "https://github.com/Jitesh-Raghav/Ticket-Booking-Concurrent",
+    //       icon: <Icons.github className="size-3" />,
+    //     },
+    //   ],
+    //   image: "/ticket.png",
+    //   // video:
+    //   //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+    // },
     {
       title: "Multithreaded WebServer",
       href: "https://github.com/Jitesh-Raghav/Multithreaded-WebServer",
