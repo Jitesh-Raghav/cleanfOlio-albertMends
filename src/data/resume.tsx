@@ -224,7 +224,7 @@ export const DATA = {
     },
     {
       title: "Drawscribe.io",
-      href: "https://github.com/Jitesh-Raghav/DrawScribe.io",
+      href: "https://drawscribe-io.vercel.app/",
       dates: "Aug 2024 - Oct 2024",
       active: true,
       description:
@@ -241,7 +241,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://github.com/Jitesh-Raghav/DrawScribe.io",
+          href: "https://drawscribe-io.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
