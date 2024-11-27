@@ -4,7 +4,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Jitesh Raghav",
   initials: "JK",
-  url: "https://dillion.io",
+  url: "",
   location: "San Francisco, CA",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
@@ -15,6 +15,7 @@ export const DATA = {
      avatarUrl: "/me.png",
   skills: [
     "Java", 
+    "C++",
     "Spring Boot",
     "REST",
     "JavaScript",
@@ -26,6 +27,7 @@ export const DATA = {
     "Git",
     "Docker",
     "Kubernetes",
+    "Jenkins",
     "SQL",
     "Redis",
     "GraphQL",
@@ -34,6 +36,9 @@ export const DATA = {
     "AWS",
     "Linux",
     "WebSockets",
+    "Ffmpeg",
+    "HLD",
+    "LLD",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
