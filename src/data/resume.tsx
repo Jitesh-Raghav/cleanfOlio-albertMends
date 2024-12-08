@@ -195,35 +195,36 @@ export const DATA = {
     // },
   ],
   projects: [
+   
     {
-      title: "Chirper-X",
-      href: "https://chirper-x.vercel.app/home",
-      dates: "Jan 2024 - Feb 2024",
+      title: "BigYikes.js",
+      href: "https://bigyikes-js.vercel.app/",
+      dates: "Nov 2024 - Dec 2024",
       active: true,
       description:
-        "Chirper-X is a micro-blogging app with 200+ active users, offering multimedia posts, user profiles, and subscription upgrades to boost engagement.",
+        "An open-source tool for creating AI-driven, short-form videos. Choose templates, character voices, and generate stunning videos instantly with a simple prompt.",
       technologies: [
-        "JWT","Java","Spring Boot", 
-        "React", 
-        "Redux", 
+        "React",  
+        "Typescript",
         "Tailwind CSS", 
-        "MUI",
-        "MySQL",
-        "Cloudinary"
+        "Aceternity UI",
+        "GPT API",
+        "ElevenLabs API",
+        "Ffmpeg"
       ],
       links: [
         {
           type: "Website",
-          href: "https://chirper-x.vercel.app/home",
+          href: "https://bigyikes-js.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/Jitesh-Raghav/Chirper-X-Backend",
+          href: "https://github.com/Jitesh-Raghav/BigYikes.js",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/chirp.png",
+      image: "/bigyikes.PNG",
       video:
         "",
     },
@@ -259,6 +260,39 @@ export const DATA = {
       // video:
       //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     },
+    {
+      title: "Chirper-X",
+      href: "https://chirper-x.vercel.app/home",
+      dates: "Jan 2024 - Feb 2024",
+      active: true,
+      description:
+        "Chirper-X is a micro-blogging app with 200+ active users, offering multimedia posts, user profiles, and subscription upgrades to boost engagement.",
+      technologies: [
+        "JWT","Java","Spring Boot", 
+        "React", 
+        "Redux", 
+        "Tailwind CSS", 
+        "MUI",
+        "MySQL",
+        "Cloudinary"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://chirper-x.vercel.app/home",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Jitesh-Raghav/Chirper-X-Backend",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/chirp.png",
+      video:
+        "",
+    },
+
     // {
     //   title: "Blitzkrieg",
     //   href: "https://blitzkrieg-beryl.vercel.app/",
