@@ -197,6 +197,32 @@ export const DATA = {
   projects: [
    
     {
+      title: "Synos",
+      href: "",
+      dates: "Upcoming",
+      active: true,
+      description:
+       "A metaverse based meeting website.",
+          technologies: [
+        "COMING SOON"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/synos.jpg",
+      video:
+        "",
+    },
+    {
       title: "BigYikes.js",
       href: "https://bigyikes-js.vercel.app/",
       dates: "Nov 2024 - Dec 2024",
