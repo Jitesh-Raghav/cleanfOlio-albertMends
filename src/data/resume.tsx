@@ -390,9 +390,9 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/pro.jpeg",
-      // video:
-      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+      //image: "/pro.jpeg",
+      video:
+        "/nn.mp4",
     },
     {
       title: "DocHouse",
