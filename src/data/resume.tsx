@@ -250,9 +250,9 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/bigyikes.PNG",
+      // image: "/bigyikes.PNG",
       video:
-        "",
+        "/big.mp4",
     },
     {
       title: "Drawscribe.io",
