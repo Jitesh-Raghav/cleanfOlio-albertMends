@@ -250,7 +250,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      // image: "/bigyikes.PNG",
+       image: "/bigyikes.PNG",
       video:
         "/big.mp4",
     },
@@ -441,9 +441,9 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/netflix.png",
-      // video:
-      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+      //image: "/netflix.png",
+      video:
+        "/netf.mp4",
     },
     // {
     //   title: "Reserv",
