@@ -218,9 +218,9 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/synos.jpg",
+      //image: "/synos.jpg",
       video:
-        "",
+        "synos.mp4",
     },
     {
       title: "BigYikes.js",
@@ -250,7 +250,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-       image: "/bigyikes.PNG",
+       //image: "/bigyikes.PNG",
       video:
         "/big.mp4",
     },
@@ -314,9 +314,9 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/chirp.png",
+      //image: "/chirp.png",
       video:
-        "",
+        "/chirp.mp4",
     },
 
     // {
@@ -366,8 +366,8 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/minute.png",
-      // video: "https://cdn.llm.report/openai-demo.mp4",
+      //image: "/minute.png",
+       video: "url.mp4",
     },
     {
       title: "ProAssign",
@@ -416,9 +416,9 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/doc.jpg",
-      // video:
-      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+      //image: "/doc.jpg",
+      video:
+        "doc.mp4",
     },
     {
       title: "NetflixGPT",
@@ -491,9 +491,9 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/server.jpg",
-      // video:
-      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+      //image: "/server.jpg",
+      video:
+        "server.mp4",
     },
     {
       title: "FarMore",
@@ -516,9 +516,9 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/banner-img.png",
-      // video:
-      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
+      //image: "/banner-img.png",
+      video:
+        "farm.mp4",
     },
    
   ],
@@ -908,3 +908,9 @@ export const DATA = {
     // },
   ],
 } as const;
+
+
+
+
+
+
