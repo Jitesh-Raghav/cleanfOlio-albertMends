@@ -6,11 +6,25 @@ import { ResumeCard } from "@/components/resume-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
-import { Head } from "next/document";
+
 import Link from "next/link";
 import Markdown from "react-markdown";
 
 const BLUR_FADE_DELAY = 0.04;
+
+export const metadata = {
+  title: "Jitesh Raghav | Full Stack Dev",
+  description: "I'm Jitesh, a full-stack developer who builds fast, modern web apps.",
+  twitter: {
+    card: "summary_large_image",
+    site: "@okayjitesh",
+    title: "Jitesh's Portfolio",
+    description: "I'm Jitesh, a full-stack developer who builds fast, modern web apps.",
+    images: ["https://jiteshraghav.vercel.app/over.png"],
+  },
+  metadataBase: new URL("https://jiteshraghav.vercel.app"),
+};
+
 
 export default function Page() {
   return (
@@ -18,15 +32,7 @@ export default function Page() {
      
 
     <main className="flex flex-col min-h-[100dvh] space-y-10">
-      <Head>
-        <title>Jitesh Raghav | Full Stack Dev</title>
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@okayjitesh" />
-        <meta name="twitter:title" content="Jitesh's Portfolio" />
-        <meta name="twitter:description" content="I'm Jitesh, a full-stack developer who builds fast, modern web apps." />
-        <meta name="twitter:image" content="https://jiteshraghav.vercel.app/over.png" />
-        <meta name="twitter:url" content="https://jiteshraghav.vercel.app/" />
-      </Head>
+      
       <section id="hero">
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 flex justify-between">
