@@ -12,7 +12,9 @@ import Markdown from "react-markdown";
 
 const BLUR_FADE_DELAY = 0.04;
 
+
 export const metadata = {
+  metadataBase: new URL("https://jiteshraghav.vercel.app"),
   title: "Jitesh Raghav | Full Stack Dev",
   description: "I'm Jitesh, a full-stack developer who builds fast, modern web apps.",
   twitter: {
@@ -20,10 +22,10 @@ export const metadata = {
     site: "@okayjitesh",
     title: "Jitesh's Portfolio",
     description: "I'm Jitesh, a full-stack developer who builds fast, modern web apps.",
-    images: ["https://jiteshraghav.vercel.app/over.png"],
+    images: ["/over.png"], // Relative works now
   },
-  metadataBase: new URL("https://jiteshraghav.vercel.app"),
 };
+
 
 
 export default function Page() {
