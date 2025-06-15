@@ -14,8 +14,11 @@ const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
   return (
-<>
-     <Head>
+
+     
+
+    <main className="flex flex-col min-h-[100dvh] space-y-10">
+      <Head>
         <title>Jitesh Raghav | Full Stack Dev</title>
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@okayjitesh" />
@@ -24,8 +27,6 @@ export default function Page() {
         <meta name="twitter:image" content="https://jiteshraghav.vercel.app/over.png" />
         <meta name="twitter:url" content="https://jiteshraghav.vercel.app/" />
       </Head>
-
-    <main className="flex flex-col min-h-[100dvh] space-y-10">
       <section id="hero">
         <div className="mx-auto w-full max-w-2xl space-y-8">
           <div className="gap-2 flex justify-between">
@@ -228,6 +229,6 @@ export default function Page() {
         </div>
       </section>
     </main>
-    </>
+    
   );
 }
