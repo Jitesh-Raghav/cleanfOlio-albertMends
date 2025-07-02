@@ -69,10 +69,10 @@ export const DATA = {
 
         navbar: true,
       },
-      Speaker: {
-        name: "Youtube",
-        url: "",
-        icon: Icons.volume,
+      Resume: {
+        name: "Jitesh Resume",
+        url: "https://drive.google.com/file/d/1HWsg3TqlGALl1mfoWZhkm2UqNesQrPdq/view?usp=sharing",
+        icon: Icons.Resume,
         navbar: true,
       },
       email: {
@@ -135,6 +135,17 @@ export const DATA = {
       description:
        "Collaborated on backend development projects, building and optimizing APIs using Java and Spring Boot. Contributed to codebase maintenance, debugging, and implementing new features. Gained experience in agile development and hands-on exposure to production-level code, enhancing software quality and performance."
     },
+    {
+      company: "ViragVigyan",
+      href: "https://www.viragvigyan.com/",
+      badges: [],
+      location: "Remote",
+      title: "Full Stack developer",
+      logoUrl: "/vv.jpg",
+      start: "Dec 2024",
+      end: "June 2025",
+      description:
+      "Built a full-stack warehouse management dashboard with Spring Boot, React, and MySQL, enabling real-time inventory and order tracking. Developed a movie website with dynamic search and filtering features. Contributed across frontend and backend, optimized APIs, and followed agile practices."},
     // {
     //   company: "Splunk",
     //   href: "https://splunk.com",
@@ -148,17 +159,17 @@ export const DATA = {
     //     "Co-developed a prototype iOS app with another intern in Swift for the new Splunk Phantom security orchestration product (later publicly demoed and launched at .conf annual conference in Las Vegas). Implemented a realtime service for the iOS app in Django (Python) and C++; serialized data using protobufs transmitted over gRPC resulting in an approximate 500% increase in data throughput.",
     // },
     
-    {
-      company: "Hacktober Fest 2024",
-      href: "https://github.com/Jitesh-Raghav",
-      badges: [],
-      location: "Remote",
-      title: "Contributed to Opensource",
-      logoUrl: "/mitremedia.png",
-      start: "Oct 2024",
-      end: "Nov 2024",
-      description:
-       "Participated in Hacktoberfest 2024, contributing to open-source projects by fixing bugs, improving documentation, and adding new features. Enhanced coding skills while collaborating within the open-source community."  },
+    // {
+    //   company: "Hacktober Fest 2024",
+    //   href: "https://github.com/Jitesh-Raghav",
+    //   badges: [],
+    //   location: "Remote",
+    //   title: "Contributed to Opensource",
+    //   logoUrl: "/mitremedia.png",
+    //   start: "Oct 2024",
+    //   end: "Nov 2024",
+    //   description:
+    //    "Participated in Hacktoberfest 2024, contributing to open-source projects by fixing bugs, improving documentation, and adding new features. Enhanced coding skills while collaborating within the open-source community."  },
   ],
   education: [
     // {
@@ -196,6 +207,127 @@ export const DATA = {
   ],
   projects: [
    
+    {
+      title: "CramIt",
+      href: "https://cram-it-rouge.vercel.app",
+      dates: "March 2025 - March 2025",
+      active: true,
+      description:
+        "An open-source tool for creating AI-driven, short-form videos. Choose templates, character voices, and generate stunning videos instantly with a simple prompt.",
+      technologies: [
+        "Next.js",  
+        "Typescript",
+        "Tailwind CSS", 
+        "Shadcn",
+        "Supabase",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://cram-it-rouge.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Jitesh-Raghav",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+       //image: "/bigyikes.PNG",
+      video:
+        "/cramit.mp4",
+    },
+    {
+      title: "GoRoam",
+      href: "https://goroam.vercel.app",
+      dates: "April 2025 - April 2025",
+      active: true,
+      description:
+        "An open-source tool for creating AI-driven, short-form videos. Choose templates, character voices, and generate stunning videos instantly with a simple prompt.",
+      technologies: [
+        "React",  
+        "Typescript",
+        "Tailwind CSS", 
+        "NextAuth.js",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://goroam.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Jitesh-Raghav",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+       //image: "/bigyikes.PNG",
+      video:
+        "/goro.mp4",
+    },
+    {
+      title: "KwikReels",
+      href: "https://kwik-reels.vercel.app",
+      dates: "April 2025 - May 2025",
+      active: true,
+      description:
+        "An open-source tool for creating AI-driven, short-form videos. Choose templates, character voices, and generate stunning videos instantly with a simple prompt.",
+      technologies: [
+        "Next.js",  
+        "Typescript",
+        "Tailwind CSS", 
+        "Inngest",
+        "Firebase",
+        "ConvexDb",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://kwik-reels.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Jitesh-Raghav/BigYikes.js",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+       //image: "/bigyikes.PNG",
+      video:
+        "/kwik.mp4",
+    },
+    {
+      title: "PrepSlay",
+      href: "https://prepslay.vercel.app",
+      dates: "May 2025 - June 2025",
+      active: true,
+      description:
+        "An open-source tool for creating AI-driven, short-form videos. Choose templates, character voices, and generate stunning videos instantly with a simple prompt.",
+      technologies: [
+        "React",  
+        "Javascript",
+        "Tailwind CSS", 
+        "Vapi",
+        "Supabase",
+        "OAuth"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://prepslay.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Jitesh-Raghav/BigYikes.js",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+       //image: "/bigyikes.PNG",
+      video:
+        "/prep.mp4",
+    },
     {
       title: "Synos",
       href: "",
@@ -315,8 +447,7 @@ export const DATA = {
         },
       ],
       //image: "/chirp.png",
-      video:
-        "/chirp.mp4",
+      video:"/chirp.mp4",
     },
 
     // {
