@@ -206,6 +206,69 @@ export const DATA = {
     // },
   ],
   projects: [
+
+    {
+      title: "NotMedium",
+      href: "https://notmedium.blog",
+      dates: "June 2025",
+      active: true,
+      description:
+        "A dashboard to access the tech/engineering blogs of all the major tech companies in one place.",
+      technologies: [
+        "Next.js",  
+        "Typescript",
+        "Tailwind CSS", 
+        "Shadcn",
+        "Lucide Icons",
+        "Email.js"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://notmedium.blog",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Jitesh-Raghav/NotMedium",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+       image: "/nomed.PNG",
+      video:
+        "",
+    },
+    {
+      title: "Memic",
+      href: "https://memic-five.vercel.app",
+      dates: "July 2025",
+      active: true,
+      description:
+        "An open-source tool for creating viral memes with the help of thousands of trending meme templates from all over the internet.",
+      technologies: [
+        "Next.js",  
+        "Typescript",
+        "Tailwind CSS", 
+        "React Motion",
+        "Zustand",
+        "HTML5Canvas",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://memic-five.vercel.app",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Jitesh-Raghav/memic",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+       image: "/memdk.PNG",
+      video:
+        "",
+    },
    
     {
       title: "CramIt",
@@ -220,6 +283,8 @@ export const DATA = {
         "Tailwind CSS", 
         "Shadcn",
         "Supabase",
+        "Prisma",
+        "OAuth"
       ],
       links: [
         {
@@ -233,7 +298,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-       //image: "/bigyikes.PNG",
+       image: "",
       video:
         "/cramit.mp4",
     },
@@ -249,6 +314,8 @@ export const DATA = {
         "Typescript",
         "Tailwind CSS", 
         "NextAuth.js",
+        "Supabase",
+        "Prisma"
       ],
       links: [
         {
@@ -262,7 +329,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-       //image: "/bigyikes.PNG",
+       image: "",
       video:
         "/goro.mp4",
     },
@@ -293,7 +360,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-       //image: "/bigyikes.PNG",
+       image: "",
       video:
         "/kwik.mp4",
     },
@@ -310,7 +377,8 @@ export const DATA = {
         "Tailwind CSS", 
         "Vapi",
         "Supabase",
-        "OAuth"
+        "OAuth",
+        "Play.ht"
       ],
       links: [
         {
@@ -324,7 +392,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-       //image: "/bigyikes.PNG",
+       image: "",
       video:
         "/prep.mp4",
     },
@@ -350,7 +418,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      //image: "/synos.jpg",
+      image: "",
       video:
         "synos.mp4",
     },
@@ -382,7 +450,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-       //image: "/bigyikes.PNG",
+       image: "",
       video:
         "/big.mp4",
     },
@@ -414,7 +482,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      //image: "/draw.jpg",
+      image: "",
       video:
         "/draw.mp4",
     },
@@ -446,35 +514,35 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      //image: "/chirp.png",
+      image: "",
       video:"/chirp.mp4",
     },
 
-    // {
-    //   title: "Blitzkrieg",
-    //   href: "https://blitzkrieg-beryl.vercel.app/",
-    //   dates: "Sept 2024 - Oct 2024",
-    //   active: true,
-    //   description:
-    //     "A cloud IDE built with React, CodeMirror, Tailwind, and Judge0. It enables real-time code execution, syntax highlighting, and supports multiple languages for seamless coding directly in the browser.",
-    //   technologies: [
-    //     "React", "Redux","Tailwind CSS", "Code Mirror", "Judge0",
-    //   ],
-    //   links: [
-    //     {
-    //       type: "Website",
-    //       href: "https://blitzkrieg-beryl.vercel.app/",
-    //       icon: <Icons.globe className="size-3" />,
-    //     },
-    //     {
-    //       type: "Source",
-    //       href: "https://github.com/Jitesh-Raghav/Blitzkrieg",
-    //       icon: <Icons.github className="size-3" />,
-    //     },
-    //   ],
-    //   image: "/blitz.png",
-    //   // video: "https://cdn.magicui.design/bento-grid.mp4",
-    // },
+    {
+      title: "Blitzkrieg",
+      href: "https://blitzkrieg-beryl.vercel.app/",
+      dates: "Sept 2024 - Oct 2024",
+      active: true,
+      description:
+        "A cloud IDE built with React, CodeMirror, Tailwind, and Judge0. It enables real-time code execution, syntax highlighting, and supports multiple languages for seamless coding directly in the browser.",
+      technologies: [
+        "React", "Redux","Tailwind CSS", "Code Mirror", "Judge0",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://blitzkrieg-beryl.vercel.app/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/Jitesh-Raghav/Blitzkrieg",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/blitz.png",
+       video: "",
+    },
     {
       title: "minuteURL",
       href: "https://minute-url.vercel.app/",
@@ -497,7 +565,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      //image: "/minute.png",
+      image: "",
        video: "url.mp4",
     },
     {
@@ -521,7 +589,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      //image: "/pro.jpeg",
+      image: "",
       video:
         "/nn.mp4",
     },
@@ -547,7 +615,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      //image: "/doc.jpg",
+      image: "",
       video:
         "doc.mp4",
     },
@@ -572,35 +640,35 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      //image: "/netflix.png",
+      image: "",
       video:
         "/netf.mp4",
     },
-    // {
-    //   title: "Reserv",
-    //   href: "https://github.com/Jitesh-Raghav/Ticket-Booking-Concurrent",
-    //   dates: "April 2024",
-    //   active: true,
-    //   description:
-    //    "A Movie Ticket Booking website with transaction isolation to manage concurrent seat bookings and prevent race conditions. Features include user authentication, movie listings, and booking.",  technologies: [
-    //      "HTML", "CSS", "JavaScript","Apache POI", "JODConvertor", "Spring Boot"
-    //   ],
-    //   links: [
-    //     // {
-    //     //   type: "Website",
-    //     //   href: "https://chromewebstore.google.com/detail/dochouse/bfiklficoamhlojcefkjaeamidnlbgbj?authuser=0&hl=en-GB",
-    //     //   icon: <Icons.globe className="size-3" />,
-    //     // },
-    //     {
-    //       type: "Source",
-    //       href: "https://github.com/Jitesh-Raghav/Ticket-Booking-Concurrent",
-    //       icon: <Icons.github className="size-3" />,
-    //     },
-    //   ],
-    //   image: "/ticket.png",
-    //   // video:
-    //   //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
-    // },
+    {
+      title: "Reserv",
+      href: "https://github.com/Jitesh-Raghav/Ticket-Booking-Concurrent",
+      dates: "April 2024",
+      active: true,
+      description:
+       "A Movie Ticket Booking website with transaction isolation to manage concurrent seat bookings and prevent race conditions. Features include user authentication, movie listings, and booking.",  technologies: [
+         "HTML", "CSS", "JavaScript", "Spring Boot","Spring Security", "Maven","Swagger", "JWT", "Spring Data JPA"
+      ],
+      links: [
+        // {
+        //   type: "Website",
+        //   href: "https://chromewebstore.google.com/detail/dochouse/bfiklficoamhlojcefkjaeamidnlbgbj?authuser=0&hl=en-GB",
+        //   icon: <Icons.globe className="size-3" />,
+        // },
+        {
+          type: "Source",
+          href: "https://github.com/Jitesh-Raghav/Ticket-Booking-Concurrent",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/ticket.png",
+      video:
+        "",
+    },
     {
       title: "Multithreaded WebServer",
       href: "https://github.com/Jitesh-Raghav/Multithreaded-WebServer",
@@ -622,7 +690,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      //image: "/server.jpg",
+      image: "",
       video:
         "server.mp4",
     },
@@ -647,7 +715,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      //image: "/banner-img.png",
+      image: "",
       video:
         "farm.mp4",
     },
