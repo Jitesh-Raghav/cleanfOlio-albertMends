@@ -378,7 +378,9 @@ export const DATA = {
         "Vapi",
         "Supabase",
         "OAuth",
-        "Play.ht"
+        "Play.ht",
+        "Deepgram",
+        "Openrouter",
       ],
       links: [
         {
