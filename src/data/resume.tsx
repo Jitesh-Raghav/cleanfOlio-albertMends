@@ -11,7 +11,7 @@ export const DATA = {
     "Final year undergrad student at Army Institute of Technology, Pune. Very active on Twitter.",
   summary:
     //"At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
-    "[Full-stack Java developer](/#about) experienced in [Spring Boot, Java, React, and Next.js](/#skills). My background includes [internships, freelance work, a ton of personal projects. ](/#)and a range of courses and [certifications](/#hackathons) to deepen my expertise.",
+    "[Full-stack developer](/#about) experienced in [Spring Boot, Java, React, and Next.js](/#skills). My background includes [full time SDE roles, opensource contributions, internships, freelance work, a ton of personal projects. ](/#)and a range of courses and [certifications](/#hackathons) to deepen my expertise.",
      avatarUrl: "/me.png",
   skills: [
     "Java", 
@@ -140,8 +140,8 @@ export const DATA = {
       location: "Remote",
       title: "Java Developer Intern",
       logoUrl: "/nvidia.png",
-      start: "January 2024",
-      end: "April 2024",
+      start: "Jan 2024",
+      end: "Apr 2024",
       description:
        "Collaborated on backend development projects, building and optimizing APIs using Java and Spring Boot. Contributed to codebase maintenance, debugging, and implementing new features. Gained experience in agile development and hands-on exposure to production-level code, enhancing software quality and performance."
     },
@@ -153,7 +153,7 @@ export const DATA = {
       title: "Full Stack developer",
       logoUrl: "/vv.jpg",
       start: "Dec 2024",
-      end: "June 2025",
+      end: "Jun 2025",
       description:
       "Built a full-stack warehouse management dashboard with Spring Boot, React, and MySQL, enabling real-time inventory and order tracking. Developed a movie website with dynamic search and filtering features. Contributed across frontend and backend, optimized APIs, and followed agile practices."},
     // {
