@@ -86,7 +86,17 @@ export const DATA = {
   },
 
   work: [
-
+ {
+      company: "Western Union",
+      href: "https://li.me/",
+      badges: [],
+      location: "Hybrid",
+      title: "Software Engineer",
+      logoUrl: "/wu.png",
+      start: "Jan 2025",
+      end: "Present",
+      description:
+        "Worked on developing backend microservices with Java, Spring Boot, REST APIs, and databases, while assisting in integration, testing and CI/CD deployments." },
     {
       company: "Open Source Contributor",
       href: "https://li.me/",
