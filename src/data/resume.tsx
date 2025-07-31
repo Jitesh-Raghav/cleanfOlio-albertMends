@@ -117,7 +117,7 @@ export const DATA = {
       title: "Freelance Software Engineeer",
       logoUrl: "/atomic.png",
       start: "Dec 2023",
-      end: "Present",
+      end: "Jan 2025",
       description:
        "Developed and deployed full-stack applications using Java, Spring Boot, React, and Next.js for diverse clients. Delivered tailored software solutions by gathering requirements, managing timelines, and adapting to client feedback, all while ensuring high-quality, scalable results."
        },
