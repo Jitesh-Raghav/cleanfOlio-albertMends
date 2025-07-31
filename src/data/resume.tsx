@@ -109,6 +109,17 @@ export const DATA = {
       description:
         "Regularly contribute to open-source projects, focusing on Java, Spring Boot, Next.js etc. Contributions include bug fixes, new feature implementations, and code optimization across various repositories. Collaborate with global developers, enhancing code quality and fostering continuous learning within the open-source community"
       },
+         {
+      company: "ViragVigyan",
+      href: "https://www.viragvigyan.com/",
+      badges: [],
+      location: "Remote",
+      title: "Full Stack developer",
+      logoUrl: "/vv.jpg",
+      start: "Dec 2024",
+      end: "Jun 2025",
+      description:
+      "Built a full-stack warehouse management dashboard with Spring Boot, React, and MySQL, enabling real-time inventory and order tracking. Developed a movie website with dynamic search and filtering features. Contributed across frontend and backend, optimized APIs, and followed agile practices."},
     {
       company: "Upwork",
       href: "https://www.upwork.com/freelancers/~01fdf6a38198f395a4",
@@ -145,17 +156,7 @@ export const DATA = {
       description:
        "Collaborated on backend development projects, building and optimizing APIs using Java and Spring Boot. Contributed to codebase maintenance, debugging, and implementing new features. Gained experience in agile development and hands-on exposure to production-level code, enhancing software quality and performance."
     },
-    {
-      company: "ViragVigyan",
-      href: "https://www.viragvigyan.com/",
-      badges: [],
-      location: "Remote",
-      title: "Full Stack developer",
-      logoUrl: "/vv.jpg",
-      start: "Dec 2024",
-      end: "Jun 2025",
-      description:
-      "Built a full-stack warehouse management dashboard with Spring Boot, React, and MySQL, enabling real-time inventory and order tracking. Developed a movie website with dynamic search and filtering features. Contributed across frontend and backend, optimized APIs, and followed agile practices."},
+ 
     // {
     //   company: "Splunk",
     //   href: "https://splunk.com",
