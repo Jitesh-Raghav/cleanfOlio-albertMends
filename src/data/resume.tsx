@@ -91,7 +91,7 @@ export const DATA = {
       href: "https://li.me/",
       badges: [],
       location: "Hybrid",
-      title: "Software Engineer",
+      title: "Software Engineer 1",
       logoUrl: "/wu.png",
       start: "Jan 2025",
       end: "Present",
@@ -107,7 +107,7 @@ export const DATA = {
       start: "Oct 2023",
       end: "Present",
       description:
-        "Regularly contribute to open-source projects, focusing on Java, Spring Boot, and frontend technologies like React. Contributions include bug fixes, new feature implementations, and code optimization across various repositories. Collaborate with global developers, enhancing code quality and fostering continuous learning within the open-source community"
+        "Regularly contribute to open-source projects, focusing on Java, Spring Boot, Next.js etc. Contributions include bug fixes, new feature implementations, and code optimization across various repositories. Collaborate with global developers, enhancing code quality and fostering continuous learning within the open-source community"
       },
     {
       company: "Upwork",
