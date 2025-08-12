@@ -913,6 +913,26 @@ export const DATA = {
       //   },
       // ],
     },
+     {
+      title: "Harkirat Cohort 3.0",
+      dates: "March, 2025",
+      location: "Online",
+      description:
+       "Took part in Harkirat's Web Dev, DevOps and Blockchain cohort 3.0",      image:
+        "/sys.jpeg",
+      win: "1st Place Winner",
+      
+    },
+     {
+      title: "System Design for Beginners By Arpit Bhayani",
+      dates: "May, 025",
+      location: "Online",
+      description:
+       "Brushed up on some of the important system design concepts important for deeper understanding of scalable systems.",      image:
+        "/sys.jpeg",
+      win: "1st Place Winner",
+     
+    },
 
 
 
