@@ -15,9 +15,10 @@ export const DATA = {
      avatarUrl: "/me.png",
   skills: [
     "Java", 
-    "C++",
+    "Spring",
     "Spring Boot",
     "REST",
+    "Microservices",
     "JavaScript",
     "React",
     "Redux",
