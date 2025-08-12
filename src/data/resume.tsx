@@ -916,7 +916,7 @@ export const DATA = {
      {
       title: "Harkirat Cohort 3.0",
       dates: "March, 2025",
-      location: "Online",
+      location: "100xDevs.com",
       description:
        "Took part in Harkirat's Web Dev, DevOps and Blockchain cohort 3.0",      image:
         "/cohort.png",
@@ -926,7 +926,7 @@ export const DATA = {
      {
       title: "System Design for Beginners By Arpit Bhayani",
       dates: "May, 025",
-      location: "Online",
+      location: "arpitbhayani.me",
       description:
        "Brushed up on some of the important system design concepts important for deeper understanding of scalable systems.",      image:
         "/abh.jpeg",
