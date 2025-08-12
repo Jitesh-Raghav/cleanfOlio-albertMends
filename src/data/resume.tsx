@@ -919,7 +919,7 @@ export const DATA = {
       location: "Online",
       description:
        "Took part in Harkirat's Web Dev, DevOps and Blockchain cohort 3.0",      image:
-        "/sys.jpeg",
+        "/cohort.png",
       win: "1st Place Winner",
       
     },
@@ -929,7 +929,7 @@ export const DATA = {
       location: "Online",
       description:
        "Brushed up on some of the important system design concepts important for deeper understanding of scalable systems.",      image:
-        "/sys.jpeg",
+        "/abh.jpeg",
       win: "1st Place Winner",
      
     },
