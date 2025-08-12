@@ -8,7 +8,7 @@ export const DATA = {
   location: "San Francisco, CA",
   locationLink: "https://www.google.com/maps/place/sanfrancisco",
   description:
-    "Final year undergrad student at Army Institute of Technology, Pune. Very active on Twitter.",
+    "Engineering Graduate ’25 from AIT, Pune. Building cool stuff and tweeting about tech. Very active on Twitter.",
   summary:
     //"At the end of 2022, I quit my job as a software engineer to go fulltime into building and scaling my own SaaS businesses. In the past, [I pursued a double degree in computer science and business](/#education), [interned at big tech companies in Silicon Valley](https://www.youtube.com/watch?v=d-LJ2e5qKdE), and [competed in over 21 hackathons for fun](/#hackathons). I also had the pleasure of being a part of the first ever in-person cohort of buildspace called [buildspace sf1](https://buildspace.so/sf1).",
     "[Full-stack developer](/#about) experienced in [Spring Boot, Java, React, and Next.js](/#skills). My background includes [full time SDE roles, opensource contributions, internships, freelance work, a ton of personal projects. ](/#)and a range of courses and [certifications](/#hackathons) to deepen my expertise.",
